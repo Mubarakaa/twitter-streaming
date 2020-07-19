@@ -1,4 +1,4 @@
-package com.mub.kafkalearn.twitter;
+package com.kafkalearn.twitter;
 
 import com.google.common.collect.Lists;
 import com.twitter.hbc.ClientBuilder;
@@ -25,10 +25,10 @@ public class TwitterProducer {
 
     private Logger logger = LoggerFactory.getLogger(TwitterProducer.class);
 
-    private String consumerKey = "consumerKey";
-    private String consumerSecret = "consumerSecret";
-    private String token = "token";
-    private String secret = "secret";
+    private String consumerKey = "";
+    private String consumerSecret = "";
+    private String token = "";
+    private String secret = "";
 
     private List<String> terms = Lists.newArrayList("bitcoin", "kafka");
 

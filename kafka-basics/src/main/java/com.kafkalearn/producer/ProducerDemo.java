@@ -1,4 +1,4 @@
-package com.mub.kafkalearn.producer;
+package com.kafkalearn.producer;
 
 import org.apache.kafka.clients.producer.*;
 import org.apache.kafka.common.serialization.StringSerializer;
